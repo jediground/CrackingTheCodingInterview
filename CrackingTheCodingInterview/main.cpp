@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "1_1.hpp"
 
+// 来源：http://www.hawstein.com/posts/ctci-solutions-contents.html
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    test_1_1();
+    
+    
     return 0;
 }
