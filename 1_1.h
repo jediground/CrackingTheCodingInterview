@@ -1,13 +1,9 @@
 //
-//  1_1.hpp
-//  CrackingTheCodingInterview
-//
-//  Created by Moch Xiao on 10/27/15.
-//  Copyright © 2015 Moch Xiao. All rights reserved.
+// Created by Moch Xiao on 12/2/15.
 //
 
-#ifndef __1_hpp
-#define __1_hpp
+#ifndef CRACKINGTHECODINGINTERVIEW_1_1_H
+#define CRACKINGTHECODINGINTERVIEW_1_1_H
 
 #include <stdio.h>
 #include <string>
@@ -20,5 +16,5 @@ using namespace std;
 
 void test_1_1();
 
-#endif /* __1_hpp */
 
+#endif //CRACKINGTHECODINGINTERVIEW_1_1_H

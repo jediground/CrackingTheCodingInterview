@@ -1,12 +1,8 @@
 //
-//  1_1.cpp
-//  CrackingTheCodingInterview
-//
-//  Created by Moch Xiao on 10/27/15.
-//  Copyright © 2015 Moch Xiao. All rights reserved.
+// Created by Moch Xiao on 12/2/15.
 //
 
-#include "1_1.hpp"
+#include "1_1.h"
 #include <iostream>
 
 /// 如果字符集是ASCII字符
@@ -24,13 +20,13 @@ bool is_unique(string str) {
         }
         a[ch] = true;
     }
-    
+
     return true;
 }
 
 /// 使用位运算
 bool is_unique_2(string str) {
-    #define ARRAY_LENGHT 8
+#define ARRAY_LENGHT 8
     int arr[ARRAY_LENGHT];
     memset(arr, 0, sizeof(arr));
     for (int i = 0; i < str.length(); i++) {
@@ -42,11 +38,10 @@ bool is_unique_2(string str) {
         }
         arr[index] |= (1 << shift);
     }
-    
+
     return true;
 }
 
-    
 void test_1_1() {
     string s1 = "This is a test.";
     string s2 = "abcd";
